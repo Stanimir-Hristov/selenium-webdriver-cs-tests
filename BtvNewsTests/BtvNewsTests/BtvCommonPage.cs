@@ -9,7 +9,7 @@ namespace Tests
 
         public BtvCommonPage(IWebDriver driver)
         {
-            this.driver = driver;
+            this.driver = driver; 
             PageFactory.InitElements(driver, this);
         }
 
