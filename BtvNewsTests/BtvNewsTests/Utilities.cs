@@ -7,7 +7,6 @@ namespace Tests
     {
         public static void Waiting(int seconds)
         {
-		// some try
             seconds *= 1000;
             Thread.Sleep(seconds);
         }
